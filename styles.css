@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+html, body 
+{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body nav ul
+{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+    margin-left: auto;
+    width: 50%;
+    height: 5vh;
+}
+.nav-links
+{
+    text-decoration: none;
+}
+.home-container
+{
+    padding-top: 5%;
+    padding-bottom: 100%;
+    background-image: linear-gradient(to bottom, #141414 0%, #212121 100%);
+}
+.home-container .home-content img
+{
+    width: 700px;
+    height: auto;
+    opacity: 0.1;
+    display: flex;
+    position: absolute;
+    left: 77%;
+}
+.home-container h1
+{
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+    color: #d60000;
+    font-size: 50px;
+    padding-top: 150px;
+}
+.home-container .home-content p
+{
+    text-align: center;
+    color: #d60000;
+}
+.home-container .mid
+{
+    color: #d60000;
+    position: relative;
+    left: 35%;
+}
+.home-container .mid .work1-content
+{
+    opacity: 0;
+    margin-top: 325px;
+    transform: translateY(50px);
+    transition: all 0.6s ease-out;
+}
+.home-container .mid .work1-content img
+{
+    position: relative;
+    width: 700px;
+    height: auto;
+    transition: 0.5s;
+}
+.home-container .mid .work1-content img:hover
+{
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+    transition: 0.5s;
+}
+.home-container .mid .work1-content.shown
+{
+    opacity: 1;
+    transform: translateY(0);
+}
+.home-container .mid .work1-content h2
+{
+    font-size: 45px;
+    padding-top: 0%;
+}
+.home-container .mid .work1-content h2 .first-nav
+{
+    text-decoration: none;
+}
+.home-container .mid .work1-content h2 a:visited
+{
+    color: #d60000;
+}
+.home-container .mid .work1-content h2 a:hover
+{
+    color: orangered;
+    transition: 0.4s;
+}
+.home-container .mid .work1-content p
+{
+    align-content: center;
+    font-size: 18px;
+}
+.home-container .mid .work2-content 
+{
+    margin-top: 200px;
+}
+
+@media only screen and (min-width: 480px) {
+    
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 1140px) {
+    
+}
