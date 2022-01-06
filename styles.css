@@ -248,13 +248,13 @@ body nav ul
 {
     position: absolute;
     left: 0%;
-    top: 13.5%;
+    top: 12.5%;
 }
 .home-container .mid #pre2 .car
 {
     position: absolute;
     right: 8%;
-    top: 18.5%;
+    top: 17.5%;
 }
 .home-container .mid #pre3
 {
@@ -533,6 +533,12 @@ body nav ul
     height: auto;
     padding-bottom: 150px;
 }
+.home-container .mid #work4-content #dlu
+{
+    width: 700px;
+    height: auto;
+    padding-bottom: 150px;
+}
 /*///////////////////////// FOOTER //////////////////////*/
 .final p
 {
@@ -595,12 +601,12 @@ body nav ul
     .home-container .mid #pre2 .mario
     {
         position: absolute;
-        top: 16%;
+        top: 15%;
     }
     .home-container .mid #pre2 .car
     {
         position: absolute;
-        top: 23%;
+        top: 22%;
     }
     .home-container .mid #pre3 p
     {
@@ -692,6 +698,10 @@ body nav ul
         width: 350px;
     }
     .home-container .mid #work4-content #coth
+    {
+        width: 350px;
+    }
+    .home-container .mid #work4-content #dlu
     {
         width: 350px;
     }
@@ -732,12 +742,12 @@ body nav ul
     .home-container .mid #pre2 .mario
     {
         position: absolute;
-        top: 14%;
+        top: 15%;
     }
     .home-container .mid #pre2 .car
     {
         position: absolute;
-        top: 20%;
+        top: 21%;
     }
     .home-container .mid #pre3 p
     {
@@ -832,6 +842,10 @@ body nav ul
     {
         width: 400px;
     }
+    .home-container .mid #work4-content #dlu
+    {
+        width: 400px;
+    }
     .final ul
     {
         align-items: center;
@@ -854,6 +868,16 @@ body nav ul
 }
 @media only screen and (min-width: 851px) and (max-width: 1000px)
 {
+    .home-container .mid #pre2 .mario
+    {
+        position: absolute;
+        top: 13%;
+    }
+    .home-container .mid #pre2 .car
+    {
+        position: absolute;
+        top: 20%;
+    }
     .home-container .mid #work1-content #what
     {
         opacity: 0;
@@ -892,6 +916,10 @@ body nav ul
         width: 550px;
     }
     .home-container .mid #work4-content #coth
+    {
+        width: 550px;
+    }
+    .home-container .mid #work4-content #dlu
     {
         width: 550px;
     }
