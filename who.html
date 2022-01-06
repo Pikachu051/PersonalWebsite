@@ -4,28 +4,113 @@
     <meta charset="UTF-8"> 
     <title>Who</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="styles.css" rel="stylesheet">
-    <script defer src="/js/script.js"></script>
+    <link href="work-styles.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script defer src="/js/workscript.js"></script>
 </head>
     <body>
-        <nav>
+        <nav class="sticky">
             <ul>
-                <li><a href="/index.html">Works</a></li>
-                <li><a href="/who.html">Who</a></li>
+                <h1>/who</h1>
+                <li><a class="nav-links" href="/index.html">/life</a></li>
+                <li><a class="nav-links" href="/who.html">/who</a></li>
             </ul>
         </nav>
-        <main id="main" class="who">
-                <h1>This is the Who page</h1>
-                This is who I am.
+        <div class="container">
+            <div id="header" class="who">
+                <h1>/who</h1>
+                <p>Who am i?</p>
+                <div id="vid-autoplay">
+                    <video autoplay loop defaultMuted playsinline src="videos/8_bit_reveal.mp4" type="video/mp4"></video>
+                </div>
             </div>
-        </main>
-    </div>
+            <div class="mid">
+                <div id="content1">
+                    <!--
+                    <a href="#"><img src="images/Profile_Pics_2.png" id="pic1" class="pic"
+                        onmouseover="this.src='images/Profile_Pics_2.png'"
+                        onmouseout="this.src='images/8bit.png'"
+                        border="0" alt=""/></a>-->
+                </div>
+                <div id="about-table">
+                    <ul>
+                        <li>
+                            <b class="red">Me: </b>
+                            <br>Sahachindech Katedee (Chin)
+                        </li>
+                        <li>
+                            <b class="red">Age: </b>
+                            <br>18
+                        </li>
+                        <li>
+                            <b class="red">Date of birth: </b>
+                            <br> 3 September 2003
+                        </li>
+                        <li>
+                            <b class="red">Address: </b>
+                            <br>9/284 Moo 10 Phahonyothin 64, Khu Khot,
+                            <br>Lam Lukka, Pathum Thani
+                        </li>
+                        <li>
+                            <b class="red">Postal code: </b>
+                            <br>12130
+                        </li>
+                        <li>
+                            <b class="red">Studying at: </b>
+                            <br>Rittiyawannalai School
+                        </li>
+                        <li>
+                            <b class="red">Dream job: </b>
+                            <br>Software engineer & Web developer
+                        </li>
+                    </ul>
+                </div>
+                <div id="about-table-lower">
+                    <ul>
+                        <li>
+                            <b class="red">Skills: </b>
+                            <br>HTML
+                            <br>CSS
+                            <br>JavaScript
+                        </li>
+                        <li>
+                            <br>C
+                            <br>C++
+                        </li>
+                        <li>
+                            <br>After Effects
+                            <br>Photoshop
+                            <br>Premiere Pro
+                        </li>
+                    </ul>
+                </div>
+                <div id="occupied">
+                    <ul>
+                        <li>
+                            <b class="red">Occupied with </b>
+                            <br>Music
+                        </li>
+                        <li>
+                            <br>Learning new things
+                        </li>
+                    </ul>
+                </div>
+                <div id="social-table">
+                    <p>Social: </p>
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/chin.katedee/" target="_blank"><i title="Facebook" id="red" class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/chinfair_" target="_blank"><i title="Instagram"id="red" class="fab fa-instagram"></i></a>
+                            <a href="https://github.com/Pikachu051/PersonalWebsite"><i title="Github" id="red" class="fab fa-github-square"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </body>
-    <!--
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.6.0.min.js"><\/script>')</script>
 
+    <script src="https://kit.fontawesome.com/7538fb6066.js" crossorigin="anonymous"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script> 
-    -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    
 </html>

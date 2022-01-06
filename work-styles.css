@@ -1,0 +1,616 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+html, body 
+{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body
+{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+a
+{
+    text-decoration: none;
+}
+/*
+a::after
+{
+    content: "";
+    position: absolute;
+    left: 12.25%;
+    bottom: 1%;
+    width: 39.5%;
+    height: 2px;
+    background: #fff;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 250ms ease-in;
+}
+a:hover::after
+{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+*/
+body nav ul
+{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+    margin-left: auto;
+    width: 30%;
+    height: 5vh;
+}
+body .sticky
+{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000;
+    z-index: 2;
+}
+body .sticky h1
+{
+    position: fixed;
+    top: 0%;
+    left: 3%;
+    color: #d60000;
+    letter-spacing: 2px;
+    -webkit-animation: fadeInBottom 1.2s both; /* Safari 4+ */
+    -moz-animation: fadeInBottom 1.2s both; /* Fx 5+ */
+    -o-animation: fadeInBottom 1.2s both; /* Opera 12+ */
+    animation: fadeInBottom 1.2s both; /* IE 10+, Fx 29+ */
+}
+@-webkit-keyframes fadeInBottom {
+    0% {
+            opacity: 0;
+            -webkit-transform: translateY(-65px);
+        }
+    100% {
+            opacity: 1;
+            -webkit-transform: translateY(0);
+        }
+    }
+              
+@-moz-keyframes fadeInBottom {
+    0% {
+            opacity: 0;
+            -moz-transform: translateY(-65px);
+        }
+    100% {
+            opacity: 1;
+            -moz-transform: translateY(0);
+        }
+    }
+              
+@-o-keyframes fadeInBottom {
+    0% {
+            opacity: 0;
+            -o-transform: translateY(-65px);
+        }
+    100% {
+            opacity: 1;
+            -o-transform: translateY(0);
+        }
+    }
+              
+@keyframes fadeInBottom {
+    0% {
+            opacity: 0;
+            transform: translateY(-65px);
+        }
+    100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+.nav-links 
+{
+    color: #d60000;
+    font-weight: 500;
+    text-decoration: none;
+}
+.nav-link:hover
+{
+    color: #212121;
+}
+.container
+{
+    padding-top: 5%;
+    padding-bottom: 80%;
+    background: black;
+}
+.container #header h1
+{
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+    color: #fff;
+    font-size: 50px;
+    padding-top: 150px;
+    font-weight: 700;
+    -webkit-animation: fadeInTop 1.2s both; /* Safari 4+ */
+    -moz-animation: fadeInTop 1.2s both; /* Fx 5+ */
+    -o-animation: fadeInTop 1.2s both; /* Opera 12+ */
+    animation: fadeInTop 1.2s both; /* IE 10+, Fx 29+ */
+}
+@-webkit-keyframes fadeInTop {
+    0% {
+            opacity: 0;
+            -webkit-transform: translateY(65px);
+        }
+    100% {
+            opacity: 1;
+            -webkit-transform: translateY(0);
+        }
+    }
+              
+@-moz-keyframes fadeInTop {
+    0% {
+            opacity: 0;
+            -moz-transform: translateY(65px);
+        }
+    100% {
+            opacity: 1;
+            -moz-transform: translateY(0);
+        }
+    }
+              
+@-o-keyframes fadeInTop {
+    0% {
+            opacity: 0;
+            -o-transform: translateY(65px);
+        }
+    100% {
+            opacity: 1;
+            -o-transform: translateY(0);
+        }
+    }
+              
+@keyframes fadeInTop {
+    0% {
+            opacity: 0;
+            transform: translateY(65px);
+        }
+    100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+.container #header p
+{
+    text-align: center;
+    font-size: 20px;
+    color: #d60000;
+    padding-bottom: 0px;
+    font-weight: 400;
+}
+.container #header #vid-autoplay video
+{
+    position: absolute;
+    top: 18%;
+    left: 5%;
+    width: 400px;
+}
+.container #header h1::after
+{
+    content: ".html";
+    color: #d60000;
+}
+
+.container .mid #pic1
+{
+    padding-left: 50px;
+    width: 400px;
+    height: auto;
+}
+.container .mid #pic1:hover
+{
+    padding-left: 50px;
+    width: 400px;
+    height: auto;
+}
+.container .mid p
+{
+    position: relative;
+    font-size: 20px;
+    color: #fff;
+    padding-left: 100px;
+    font-weight: 400;
+}
+.container .mid #content1
+{
+    padding-top: 75px;
+    display: flex;
+    position: relative;
+    top: 5%;
+    left: 0%;
+}
+.container .mid #about-table ul
+{
+    display: grid;
+    grid-template: 1fr/repeat(1,1fr);
+    grid-gap: 1rem;
+    grid-row-gap: 1rem;
+    padding-bottom: 200px;
+}
+.container .mid #about-table ul li
+{
+    list-style: none;
+    color: #fff;
+    display: block;
+    position: relative;
+    left: 40%;
+    line-height: 1.5em;
+    -webkit-animation: fadeInRight 1.2s both; /* Safari 4+ */
+    -moz-animation: fadeInRight 1.2s both; /* Fx 5+ */
+    -o-animation: fadeInRight 1.2s both; /* Opera 12+ */
+    animation: fadeInRight 1.2s both; /* IE 10+, Fx 29+ */
+}
+.container .mid #about-table-lower ul
+{
+    display: grid;
+    grid-template: 1fr/repeat(3,1fr);
+    grid-gap: 1rem;
+    grid-row-gap: 1rem;
+}
+.container .mid #about-table-lower ul li
+{
+    list-style: none;
+    color: #fff;
+    display: block;
+    position: relative;
+    left: 8%;
+    line-height: 1.5em;
+}
+.container .mid #social-table p
+{
+    padding-top: 50px;
+    position: relative;
+    right: 1.5%;
+    font-size: 16px;
+}
+.container .mid #social-table ul
+{
+    display: grid;
+    grid-template: 1fr/repeat(3,1fr);
+    grid-gap: 1rem;
+}
+.container .mid #social-table ul li
+{
+    list-style: none;
+    color: #fff;
+    display: block;
+    position: relative;
+    left: 5%;
+    line-height: 1.5em;
+}
+.container .mid #social-table ul li i
+{
+    transform: scale(1);
+    transition: all 0.4 ease-out;
+}
+.container .mid #social-table ul li i:hover
+{
+    transform: scale(1.15);
+    transition: all 0.4 ease-out;
+}
+.container .mid #social-table ul li i
+{
+    font-size: 40px;
+    padding-left: 15px;
+    color: #d60000;
+}
+.container .mid #occupied ul .red
+{
+    color: #d60000;
+}
+.container .mid #occupied ul
+{
+    padding-top: 50px;
+    display: grid;
+    grid-template: 1fr/repeat(3,1fr);
+    grid-gap: 1rem;
+    grid-row-gap: 1rem;
+}
+.container .mid #occupied ul li 
+{
+    list-style: none;
+    color: #fff;
+    display: block;
+    position: relative;
+    left: 8%;
+    line-height: 1.5em;
+}
+@-webkit-keyframes fadeInRight {
+0% {
+        opacity: 0;
+        -webkit-transform: translateX(65px);
+    }
+100% {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+    }
+}
+          
+@-moz-keyframes fadeInRight {
+0% {
+        opacity: 0;
+        -moz-transform: translateX(65px);
+    }
+100% {
+        opacity: 1;
+        -moz-transform: translateX(0);
+    }
+}
+          
+@-o-keyframes fadeInRight {
+0% {
+        opacity: 0;
+        -o-transform: translateX(65px);
+    }
+100% {
+        opacity: 1;
+        -o-transform: translateX(0);
+    }
+}
+          
+@keyframes fadeInRight {
+0% {
+        opacity: 0;
+        transform: translateX(65px);
+    }
+100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.container .mid #about-table ul li .red
+{
+    color: #d60000;
+}
+.container .mid #about-table-lower ul li .red
+{
+    color: #d60000;
+}
+@media only screen and (min-width: 768px) and (max-width: 1300px)
+{
+    .container #header h1
+    {
+        font-size: 42px;
+    }
+    .container #header #vid-autoplay video
+    {
+        display: block;
+        margin: auto;
+        width: 300px;
+        position: absolute;
+        top: 19%;
+    }
+    .container .mid #about-table ul
+    {
+        display: block;
+        position: relative;
+        left: 5%;
+        padding-bottom: 50px;
+    }
+    .container .mid #about-table ul li
+    {
+        font-size: 15px;
+    }
+    .container .mid #about-table-lower ul li
+    {
+        font-size: 15px;
+    }
+    .container .mid #about-table-lower ul
+    {
+        display: grid;
+        grid-template: 1fr/repeat(3,1fr);
+        grid-gap: 1rem;
+        grid-row-gap: 1rem;
+    }
+    .container .mid #occupied ul li 
+    {
+        font-size: 15px;
+    }
+    .container .mid #social-table p
+    {
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width: 740px) and (max-width: 767px)
+{
+    .container #header h1
+    {
+        font-size: 40px;
+    }
+    .container
+    {
+        padding-top: 5%;
+        padding-bottom: 160%;
+        background: black;
+    }
+
+    .container #header #vid-autoplay video
+    {
+        display: block;
+        width: 200px;
+        position: absolute;
+        top: 30%;
+        left: 200px;
+    }
+    .container .mid #about-table
+    {
+        display: flex;
+    }
+    .container .mid #about-table ul
+    {
+        position: absolute;
+        top: 50%;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .container .mid #about-table ul li
+    {
+        font-size: 14px;
+    }
+    .container .mid #about-table-lower
+    {
+        position: absolute;
+        top: 80%;
+        left: 16.5%;
+    }
+    .container .mid #about-table-lower ul li
+    {
+        font-size: 14px;
+    }
+    .container .mid #occupied ul
+    {
+        position: absolute;
+        top: 84%;
+        left: 16%;
+    }
+    .container .mid #occupied ul li
+    {
+        font-size: 14px;
+    }
+    .container .mid #social-table
+    {
+        position: absolute;
+        top: 88%;
+        left: 14%;
+    }
+    .container .mid #social-table ul li
+    {
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width: 650px) and (max-width: 739px)
+{
+    .container #header h1
+    {
+        font-size: 38px;
+    }
+    .container #header #vid-autoplay video
+    {
+        position: absolute;
+        top: 22%;
+        width: 250px;
+    }
+    .container .mid #social-table ul li
+    {
+        font-size: 14px;
+    }
+    .container .mid #occupied ul li
+    {
+        font-size: 14px;
+    }
+    .container .mid #about-table-lower ul li
+    {
+        font-size: 14px;
+    }
+    .container .mid #about-table ul li
+    {
+        font-size: 14px;
+    }
+    .container .mid #about-table ul
+    {
+        display: block;
+        width: 250px;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 649px)
+{
+    .container #header h1
+    {
+        font-size: 36px;
+    }
+    .container #header #vid-autoplay video
+    {
+        position: absolute;
+        top: 30%;
+        left: 12%;
+        width: 150px;
+    }
+    .container .mid #social-table ul li
+    {
+        font-size: 14px;
+    }
+    .container .mid #occupied ul li
+    {
+        font-size: 14px;
+    }
+    .container .mid #about-table-lower ul li
+    {
+        font-size: 14px;
+    }
+    .container .mid #about-table ul li
+    {
+        font-size: 14px;
+    }
+    .container .mid #about-table ul
+    {
+        display: block;
+        width: 250px;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+}
+@media only screen and (min-width: 300px) and (max-width: 499px)
+{
+    .container #header h1
+    {
+        font-size: 36px;
+    }
+    .container #header #vid-autoplay video
+    {
+        position: absolute;
+        top: 30%;
+        left: 12%;
+        width: 100px;
+    }
+    .container .mid #social-table ul li
+    {
+        font-size: 12px;
+    }
+    .container .mid #occupied ul
+    {
+        position: relative;
+        left: 5%;
+    }
+    .container .mid #occupied ul li
+    {
+        font-size: 12px;
+    }
+    .container .mid #about-table-lower ul li
+    {
+        font-size: 12px;
+    }
+    .container .mid #about-table ul li
+    {
+        font-size: 12px;
+    }
+    .container .mid #about-table ul
+    {
+        display: block;
+        width: 120px;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+    .container .mid #about-table-lower ul
+    {
+        display: grid;
+        grid-template: 1fr/repeat(1,3fr);
+        grid-gap: 1rem;
+        grid-row-gap: 1rem;
+    }
+}

@@ -3,44 +3,126 @@
 <head>
     <meta charset="UTF-8"> 
     <title>Personal Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="styles.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
     <script defer src="/js/script.js"></script>
 </head>
 
 <body>
-    <nav>
+    <nav class="sticky">
         <ul>
-            <li><a class="nav-links" href="/index.html">Works</a></li>
-            <li><a class="nav-links" href="/who.html">Who</a></li>
+            <h1>.life</h1>
+            <li><a class="nav-links" href="/index.html">/life</a></li>
+            <li><a class="nav-links" href="/who.html">/who</a></li>
         </ul>
     </nav>
     <div class="home-container">
         <div id="intro" class="home-content">
-            <h1>ALL WORKS</h1>
-            <p>Look up at my works down below. Hope you will like it.</p>
+            <h1>chin</h1>
+            <p>This is my life&work showcase.</p>
             <img src="images/bullet_cartridge.png">
         </div>
         <div id="mid" class="mid">
-            <div id="work1" class="work1-content">
+            <div id="pre1" class="pre">
+                <p>I was born in 2003.</p>
+            </div>
+            <div id="pre2" class="pre">
+                <p id="pre2p">I grew up with these RETRO GAMES.</p>
+                <div id="img-games">
+                    <img id="smb" src="images/Super-mario-bros.jpg">
+                    <p>Super Mario Bros (1983)</p>
+                    <img id="rf" src="images/road-fighter.png">
+                    <p id="rf-p">Road Fighter (1984)</p>
+                    <img id="bc" src="images/battle-city.jpeg">
+                    <p>Battle City (1985)</p>
+                </div>
+                <div class="mario"><img id="mario" src="/images/Mario-jump.png"></div>
+                <div class="car"><img id="car" src="/images/car 8bit.png"></div>
+            </div>
+            <div id="pre3" class="pre">
+                <p>They made me wonder how these games work...</p>
+            </div>
+            <div id="pre4" class="pre">
+                <p>...and inspired me to go on this path.</p>
+            </div>
+            <div id="work1-content" class="work">
                 <nav>
                     <h2><a class="first-nav" target="_blank" href='https://pastebin.com/FCfJkyRP'>Trivia Games</a></h2>
-                    <a class="first-nav" target="_blank" href='https://pastebin.com/FCfJkyRP'><img src="images/Triviagames.png"></a>
+                    <a class="first-nav" target="_blank" href='https://pastebin.com/FCfJkyRP'><img id="trivia" src="images/Triviagames.png"></a>
                 </nav>
-                <p> > This is a C programming project that teacher gave me when I was 17 years old.</p>
+                <p> :: This is a C programming project that teacher gave me when I was 17 years old.</p>
+                <img id="q-mark" src="images/questionmark.png">
+                <img id="q-mark2" src="images/questionmark2.png">
             </div>
-            <div id="work2" class="work2-content">
-                <h2>Personal Website</h2>
-                <p> > Which is the one you are scrolling through</p>
-                <p><a class="second-of-second-nav" target="_blank" href="https://github.com/Pikachu051/PersonalWebsite/tree/master">**Click here to download full project**</a></p>
+            <div id="work2-content" class="work">
+                <h2><a class="second-nav" target="_blank" href="https://chin.life">Personal Website (https://chin.life)</a></h2>
+                <a class="second-nav" target="_blank" href="https://chin.life"><img id="web" src="/images/Web.png"></a>
+                <p> :: Which is the one you are scrolling through.</p>
+                <p><a class="second-of-second-nav" target="_blank" href="https://github.com/Pikachu051/PersonalWebsite/tree/master">Download full project . . .</a></p>
+                <img id="browse1" src="images/browser.png">
+                <img id="browse2" src="images/browser2.png">
+            </div>
+            <div id="media-h" class=m-header>
+                <h2>// Media</h2>
+            </div>
+            <div id="work3-content" class="work">
+                <h2>Boonbaza (Short movie)</h2>
+                <div style="padding:33% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/655811722?h=25740ad59d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Boonbaza (short movie)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                <p> :: SKIT project given by my English teacher. This is the result.</p>
+                <h2 id="gb">Post Malone - Goodbyes (Music video parody)</h2>
+                <div style="padding:33% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/662229765?h=ca3a35eeda&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Post Malone - Goodbyes (Parody)"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                <p> :: Our parody from music video Goodbyes by Post Malone.</p>
+            </div>
+            <div id="work4-content" class="work">
+                <h2>Photoshop artwork&manipulation</h2>
+                <h3>Home Sweet Home</h3>
+                <img id="hsh" src="images/HSH.jpg">
+                <h3>Castle On The Hill</h3>
+                <img id="coth" src="images/COTH.jpg">
+                <h3>Sky High</h3>
+                <img id="sh" src="images/SH.jpg">
             </div>       
         </div>
     </div>
+    <footer class="final">
+        <p>// Created with</p>
+        <ul>
+            <li>
+                <i id="grey" class="fas fa-plus"></i>
+                <br>30+ hrs. of thinking
+                <br>200+ hrs. of coding
+                <br>33 files
+                <br>28 MB
+            </li>
+            <li>
+                <i id="grey" class="fas fa-code"></i>
+                <br>JQuery
+                <br>ScrollMagic
+                <br>Font Awesome
+            </li>
+            <li>
+                <i id="grey" class="fas fa-window-maximize"></i>
+                <br>After Effects
+                <br>Photoshop
+                <br>Premiere Pro
+                <br>Visual Studio Code
+            </li>
+            <li>
+                <i id="grey" class=""
+            </li>
+        </ul>
+    </footer>
 </body>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+<script src="https://kit.fontawesome.com/7538fb6066.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
 
 </html>
