@@ -707,7 +707,7 @@ body nav ul
         grid-template: 1fr/repeat(1,3fr);
         grid-gap: 1rem;
         grid-row-gap: 1rem;
-        font-size: 12px;
+        font-size: 14px;
     }
     .final ul li #grey
     {
