@@ -564,6 +564,10 @@ body .sticky h1
         margin: auto;
         padding-bottom: 50px;
     }
+    .container .mid #social-table ul li
+    {
+        width: 300%;
+    }
 }
 @media only screen and (min-width: 300px) and (max-width: 499px)
 {
@@ -612,5 +616,9 @@ body .sticky h1
         grid-template: 1fr/repeat(1,3fr);
         grid-gap: 1rem;
         grid-row-gap: 1rem;
+    }
+    .container .mid #social-table ul li
+    {
+        width: 300%;
     }
 }
