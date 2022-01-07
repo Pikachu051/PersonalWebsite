@@ -63,10 +63,10 @@ body .sticky h1
     left: 3%;
     color: #d60000;
     letter-spacing: 2px;
-    -webkit-animation: fadeInBottom 1.2s both; /* Safari 4+ */
-    -moz-animation: fadeInBottom 1.2s both; /* Fx 5+ */
-    -o-animation: fadeInBottom 1.2s both; /* Opera 12+ */
-    animation: fadeInBottom 1.2s both; /* IE 10+, Fx 29+ */
+    -webkit-animation: fadeInBottom 1.2s both;
+    -moz-animation: fadeInBottom 1.2s both;
+    -o-animation: fadeInBottom 1.2s both;
+    animation: fadeInBottom 1.2s both;
 }
 @-webkit-keyframes fadeInBottom {
     0% {
@@ -136,10 +136,10 @@ body .sticky h1
     font-size: 50px;
     padding-top: 150px;
     font-weight: 700;
-    -webkit-animation: fadeInTop 1.2s both; /* Safari 4+ */
-    -moz-animation: fadeInTop 1.2s both; /* Fx 5+ */
-    -o-animation: fadeInTop 1.2s both; /* Opera 12+ */
-    animation: fadeInTop 1.2s both; /* IE 10+, Fx 29+ */
+    -webkit-animation: fadeInTop 1.2s both;
+    -moz-animation: fadeInTop 1.2s both;
+    -o-animation: fadeInTop 1.2s both;
+    animation: fadeInTop 1.2s both;
 }
 .container #header p
 {
@@ -206,10 +206,10 @@ body .sticky h1
     position: relative;
     left: 40%;
     line-height: 1.5em;
-    -webkit-animation: fadeInRight 1.2s both; /* Safari 4+ */
-    -moz-animation: fadeInRight 1.2s both; /* Fx 5+ */
-    -o-animation: fadeInRight 1.2s both; /* Opera 12+ */
-    animation: fadeInRight 1.2s both; /* IE 10+, Fx 29+ */
+    -webkit-animation: fadeInRight 1.2s both;
+    -moz-animation: fadeInRight 1.2s both;
+    -o-animation: fadeInRight 1.2s both;
+    animation: fadeInRight 1.2s both;
 }
 .container .mid #about-table-lower ul
 {

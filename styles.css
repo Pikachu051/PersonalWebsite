@@ -49,10 +49,10 @@ body .sticky h1
     top: 0%;
     left: 3%;
     color: #d60000;
-    -webkit-animation: fadeInBottom 1.2s both; /* Safari 4+ */
-    -moz-animation: fadeInBottom 1.2s both; /* Fx 5+ */
-    -o-animation: fadeInBottom 1.2s both; /* Opera 12+ */
-    animation: fadeInBottom 1.2s both; /* IE 10+, Fx 29+ */
+    -webkit-animation: fadeInBottom 1.2s both; 
+    -moz-animation: fadeInBottom 1.2s both;
+    -o-animation: fadeInBottom 1.2s both;
+    animation: fadeInBottom 1.2s both;
 }
 @-webkit-keyframes fadeInBottom {
     0% {
@@ -141,10 +141,10 @@ body nav ul
     font-size: 50px;
     padding-top: 150px;
     font-weight: 700;
-    -webkit-animation: fadeInTop 1.2s both; /* Safari 4+ */
-    -moz-animation: fadeInTop 1.2s both; /* Fx 5+ */
-    -o-animation: fadeInTop 1.2s both; /* Opera 12+ */
-    animation: fadeInTop 1.2s both; /* IE 10+, Fx 29+ */
+    -webkit-animation: fadeInTop 1.2s both;
+    -moz-animation: fadeInTop 1.2s both;
+    -o-animation: fadeInTop 1.2s both;
+    animation: fadeInTop 1.2s both;
 }
 @-webkit-keyframes fadeInTop {
     0% {
