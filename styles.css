@@ -630,9 +630,8 @@ body nav ul
     }
     .home-container .mid #work4-content h2
     {
+        text-align: center;
         font-size: 27px;
-        padding-left: 50px;
-        padding-right: 50px;
     }
     .home-container .mid #work4-content h3
     {
@@ -771,6 +770,7 @@ body nav ul
     }
     .home-container .mid #work4-content h2
     {
+        text-align: center;
         font-size: 34px;
         padding-left: 50px;
         padding-right: 50px;
