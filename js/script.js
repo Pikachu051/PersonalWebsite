@@ -1,9 +1,4 @@
 $(document).ready(function(){
-
-  function toggleMobileMenu(menu){
-    menu.classList.toggle('open');
-  }
-  
   const jumpPath = {
     curviness: 1.25,
     autoRotate: false,
