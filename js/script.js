@@ -49,7 +49,7 @@ $(document).ready(function(){
   const scene = new ScrollMagic.Scene({
     triggerElement: '#work1-content'
   })
-  .setClassToggle('#work1-content', 'shown') // add class to intro
+  .setClassToggle('#work1-content', 'shown')
   .addTo(controller);
 
   const newScene1 = new ScrollMagic.Scene({
