@@ -38,7 +38,7 @@ $(document).ready(function(){
     .setPin()
     .setTween(tl)
       .addTo(controller);
-  // build a scene
+      
   const prescene = new ScrollMagic.Scene({
     triggerElement: '#pre2p',
     triggerHook: "onEnter"
